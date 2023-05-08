@@ -1,0 +1,5 @@
+# 执行实体为桌子标记
+execute as @s[scores={jk_uno.color=0}] run tellraw @a[distance=..8,team=jk_uno_player] [{"selector":"@p[distance=..6,tag=jk_uno_player_turn]","bold": true},{"text": " >> ","color": "gray"},{"score":{"name": "@s","objective": "jk_uno.card_type"},"color": "red"}]
+execute as @s[scores={jk_uno.color=1}] run tellraw @a[distance=..8,team=jk_uno_player] [{"selector":"@p[distance=..6,tag=jk_uno_player_turn]","bold": true},{"text": " >> ","color": "gray"},{"score":{"name": "@s","objective": "jk_uno.card_type"},"color": "blue"}]
+execute as @s[scores={jk_uno.color=2}] run tellraw @a[distance=..8,team=jk_uno_player] [{"selector":"@p[distance=..6,tag=jk_uno_player_turn]","bold": true},{"text": " >> ","color": "gray"},{"score":{"name": "@s","objective": "jk_uno.card_type"},"color": "green"}]
+execute as @s[scores={jk_uno.color=3}] run tellraw @a[distance=..8,team=jk_uno_player] [{"selector":"@p[distance=..6,tag=jk_uno_player_turn]","bold": true},{"text": " >> ","color": "gray"},{"score":{"name": "@s","objective": "jk_uno.card_type"},"color": "yellow"}]

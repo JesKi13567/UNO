@@ -1,0 +1,2 @@
+#clear @s
+give @s pig_spawn_egg{display:{Name:'{"text": "UNO游戏桌-4人","color": "yellow","italic": false}',Lore:['{"text": "可放置多个，但每个桌子需间隔至少 11 格！","color": "gold","italic": false}']},EntityTag:{id:"minecraft:marker",Tags:["jk_uno","jk_uno_npc","jk_uno_table_set","jk_uno_table_set_4"]},Enchantments:[{id:"unbreaking",lvl:5s}],CustomModelData:211415}
